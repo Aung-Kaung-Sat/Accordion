@@ -131,14 +131,14 @@ body {
   text-align: center;
   color: rgba(255, 255, 255, 0.836);
   position: absolute;
-  bottom: 3px;
+  bottom: 10px;
   left: 0;
   right: 0;
 }
 .attribution a {
   font-size: 13px;
   font-weight: 700;
-  color: var(--text-blue);
+  color: var(--text-dkblue);
 }
 
 @media (max-width: 900px) {
@@ -187,6 +187,10 @@ body {
   .title {
     text-align: center;
   }
+
+  .attribution {
+    bottom: -6rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -206,5 +210,8 @@ body {
   }
   .title {
     margin-bottom: 5px;
+  }
+  .attribution {
+    bottom: -9rem;
   }
 }
